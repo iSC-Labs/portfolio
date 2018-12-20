@@ -563,6 +563,8 @@ public class ClientFactory
                 // converted from LocalDate to LocalDateTime
             case 37:
                 // added boolean attribute type
+            case 38:
+                // added onlineId to security
 
                 client.setVersion(Client.CURRENT_VERSION);
                 break;
